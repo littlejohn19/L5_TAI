@@ -28,17 +28,15 @@ class Complex{
 const c1 = new Complex(3,4);
 const c2 = new Complex(6,2);
 
-const result = c1.add(c2)
+let result = c1.add(c2)
 
 result.toString()
 
-result.sub(c1)
+result = result.sub(c1)
 
 result.toString()
 
-result.module()
-
-result.toString()
+console.log(result.module())
 
 
 
