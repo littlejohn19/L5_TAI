@@ -1,0 +1,29 @@
+.scroll {
+  order: revert;
+  z-index: 3;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none;
+}
+
+footer{
+  color: #fff200;
+  font-size: 18px;
+  background-color: #000000;
+  text-align: center;
+  padding:12px;
+  z-index: 2;
+  clear: both;
+  position: relative;
+}
+
+footer a{
+  text-decoration: underline;
+  color: #ffaa00;
+  transition: all 0.3s;
+}
+
+footer a:hover{
+  color: #ff4800;
+}
