@@ -1,23 +1,23 @@
-var ComplexNumber = /** @class */ (function () {
-    function ComplexNumber(real, img) {
+"use strict";
+class ComplexNumber {
+    constructor(real, img) {
         this.real = real;
         this.img = img;
     }
-    ComplexNumber.prototype.add = function (n1) {
+    add(n1) {
         return new ComplexNumber(this.real + n1.real, this.img + n1.img);
-    };
-    ComplexNumber.prototype.sub = function (n1) {
+    }
+    sub(n1) {
         return new ComplexNumber(this.real - n1.real, this.img - n1.img);
-    };
-    ComplexNumber.prototype.module = function () {
+    }
+    module() {
         return ((this.img * this.img) + (this.real * this.real));
-    };
-    ComplexNumber.prototype.toString = function () {
+    }
+    toString() {
         console.log('Real: ' + this.real + ' Img:' + this.img);
-    };
+    }
     ;
-    return ComplexNumber;
-}());
+}
 var a = new ComplexNumber(2, 3);
 var b = new ComplexNumber(5, 7);
 a.toString();
