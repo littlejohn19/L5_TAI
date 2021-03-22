@@ -1,0 +1,14 @@
+let nav='<nav><ul> <li><a href="index.html">Home</a></li>'+
+'<li><a href="contact.html">Contact</a></li>  </ul></nav>'
+let navbarElem = document.querySelector(".navbar");
+
+navbarElem.innerHTML = nav;
+
+<nav>
+  <ul>
+    <li><a [routerLink]="['/']">Home</a></li>
+    <li><a [routerLink]="['/blog']">Blog</a></li>
+    <li><a [routerLink]="['/contact']">Contact</a></li>
+  </ul>
+</nav>
+
