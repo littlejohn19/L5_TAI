@@ -6,7 +6,7 @@ import {BlogComponent} from "./components/blog/blog.component";
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'home',
     component: HomeComponent,
   },
   {
