@@ -1,0 +1,33 @@
+html {
+    scroll-behavior: smooth;
+}
+  
+body{
+    background-color: antiquewhite;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh
+}
+.mb-3{
+    width:50vw;
+}
+#description{
+    width:500px;
+    height:300px;
+}
+
+.img {
+	width: 100px;
+	height: auto;
+}
+.scroll {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+}
+.row{
+    margin:20px;
+}
