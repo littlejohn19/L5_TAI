@@ -1,11 +1,11 @@
 "use strict"
 class Complex {
-    private real;
-    private imaginary;
+    private real: number;
+    private imaginary: number;
 
-    constructor(real, imagine) {
+    constructor(real: number, imaginary: number) {
         this.real = real;
-        this.imaginary = imagine;
+        this.imaginary = imaginary;
     }
 
     addComplex (complex: Complex) : Complex {
