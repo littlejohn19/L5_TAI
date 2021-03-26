@@ -1,0 +1,17 @@
+nav {
+  margin: 0 25%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav > a {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 3rem;
+}

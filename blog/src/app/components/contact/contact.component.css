@@ -1,0 +1,36 @@
+body {
+  background-color: tomato;
+}
+
+body > #container {
+  margin: 0 25%;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 50%;
+  padding: 1.25rem;
+  color: white;
+  border: 1px solid #000;
+  border-radius: 2px;
+}
+
+legend {
+  font-weight: bold;
+}
+
+.img {
+  width: 100px;
+  height: auto;
+}
+
+footer {
+  clear: both;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  min-height: 25px
+}
