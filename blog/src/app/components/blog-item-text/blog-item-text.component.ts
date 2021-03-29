@@ -7,7 +7,7 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class BlogItemTextComponent implements OnInit {
 
-  @Input() text: string | undefined;
+  @Input() text: any;
 
   constructor() { }
 

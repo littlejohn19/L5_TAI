@@ -9,11 +9,13 @@ import {DataService} from "../../services/data.service";
 export class BlogComponent implements OnInit {
 
   @Input() filterText: string | undefined;
-  public items$:any;
+  public items$: any;
 
-  constructor(private service:DataService) { }
+  constructor(private service:DataService) {
+  }
 
-  ngOnInit(): void {
+  ngOnInit() {
+    this.getAll();
   }
 
   getAll(){
