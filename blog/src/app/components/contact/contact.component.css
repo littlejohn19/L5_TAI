@@ -1,0 +1,30 @@
+body{
+	background: yellow
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.img {
+	width: 100px;
+	height: auto;
+}
+
+.footer {
+	display: flex;
+   flex-direction: row;
+   justify-content: center;
+
+}
+.navbar {
+	display: flex;
+   flex-direction: row;
+   justify-content: center;
+   text-align:10px;
+}
+.scroll {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+	 display: none;
+}
