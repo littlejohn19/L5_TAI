@@ -1,15 +1,29 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
+import {DataService} from "../../services/data.service";
+
+
 
 @Component({
-  selector: 'app-blog',
+  selector: 'blog',
   templateUrl: './blog.component.html',
   styleUrls: ['./blog.component.css']
 })
 export class BlogComponent implements OnInit {
 
-  constructor() { }
+  @Input() filterText = ' ';
+  public items$: any;
 
-  ngOnInit(): void {
+  constructor(private service: DataService) { }
+
+  ngOnInit(){
+    this.getAll();
   }
 
-}
+  // tslint:disable-next-line:typedef
+  getAll(){
+    this.service.getAll().subscribe(response => {
+      this.items$ = response;
+    }); }
+
+
+  }
