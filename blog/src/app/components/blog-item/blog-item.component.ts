@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'blog-item',
@@ -6,10 +6,9 @@ import {Component, Input, OnInit} from '@angular/core';
   styleUrls: ['./blog-item.component.css']
 })
 export class BlogItemComponent implements OnInit {
-  @Input() image: string;
-  @Input() text: string;
 
-
+  @Input() image: string = '';
+  @Input() text: string = '';
   constructor() { }
 
   ngOnInit(): void {

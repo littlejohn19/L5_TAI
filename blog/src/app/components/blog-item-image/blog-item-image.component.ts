@@ -1,4 +1,4 @@
-import { Component,Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'blog-item-image',
@@ -7,8 +7,7 @@ import { Component,Input, OnInit } from '@angular/core';
 })
 export class BlogItemImageComponent implements OnInit {
 
-  @Input() image: string;
-
+  @Input() image: string = '';
   constructor() { }
 
   ngOnInit(): void {
