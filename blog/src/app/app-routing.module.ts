@@ -17,7 +17,13 @@ const routes: Routes = [
   {
     path: 'blog',
     component: BlogComponent
-  }];
+  },
+  {
+  path: 'blog/detail/:id',
+  component: BlogItemDetailComponent
+  },
+
+  ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
