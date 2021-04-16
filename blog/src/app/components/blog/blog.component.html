@@ -1,1 +1,6 @@
-<p>blog works!</p>
+<h1>blog works!</h1>
+<div *ngFor="let item of items$ | filter: filterText">
+  <blog-item [image]="item.url" [text]="item.title">
+  </blog-item>
+</div>
+
