@@ -1,0 +1,33 @@
+body{
+  margin-bottom: 36px;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.img {
+  width: 100px;
+  height: auto;
+}
+.center{
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 4px;
+  background-color: #c8c8c8;
+  position: fixed;
+  bottom: 0;
+}
+a{
+  text-decoration: none;
+  padding-right: 12px;
+}
+.scroll {
+  position: fixed;
+  bottom: 42px;
+  right: 30px;
+  display: none;
+}
+.space {
+  padding-bottom: 1000px;
+}
