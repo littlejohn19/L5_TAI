@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4d32b637-2097-40b6-928b-427aafa2fa51" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/L5_TAI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/L5_TAI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/app/components/blog-home/blog-home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/app/components/blog-home/blog-home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/app/components/blog-item-text/blog-item-text.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/app/components/blog-item-text/blog-item-text.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/app/components/blog/blog.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/app/components/blog/blog.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/app/shared/search-bar/search-bar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/app/shared/search-bar/search-bar.component.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="typescript" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1q7pWXehol9uPDik01ZlSOz77uR" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="D:\PROJEKT 2020\L5_TAI\blog\node_modules\typescript\lib" />
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="E2E Tests (blog)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/blog/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/blog/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d32b637-2097-40b6-928b-427aafa2fa51" name="Default Changelist" comment="" />
+      <created>1616440524344</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616440524344</updated>
+      <workItem from="1616440524638" duration="5293000" />
+      <workItem from="1616446522937" duration="57000" />
+      <workItem from="1616449945491" duration="22000" />
+      <workItem from="1616450170171" duration="543000" />
+      <workItem from="1616450727978" duration="1603000" />
+      <workItem from="1616492560069" duration="15000" />
+      <workItem from="1617042555128" duration="49000" />
+      <workItem from="1617042610740" duration="2382000" />
+      <workItem from="1617045029059" duration="282000" />
+      <workItem from="1617045643299" duration="2067000" />
+      <workItem from="1617048984084" duration="823000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
