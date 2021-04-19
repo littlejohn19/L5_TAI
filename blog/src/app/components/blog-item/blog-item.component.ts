@@ -9,6 +9,7 @@ export class BlogItemComponent implements OnInit {
 
   @Input() image: string | undefined;
   @Input() text: string | undefined;
+  @Input() id:number | undefined;
 
   constructor() { }
 

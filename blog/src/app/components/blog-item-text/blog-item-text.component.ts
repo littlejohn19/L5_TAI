@@ -8,7 +8,7 @@ import {Component, Input, OnInit} from '@angular/core';
 export class BlogItemTextComponent implements OnInit {
 
   @Input() text: any;
-
+  @Input() id: number | undefined;
   constructor() { }
 
   ngOnInit(): void {

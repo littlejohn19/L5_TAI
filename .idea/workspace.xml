@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d32b637-2097-40b6-928b-427aafa2fa51" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/L5_TAI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/L5_TAI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/src/app/components/blog-home/blog-home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/app/components/blog-home/blog-home.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/app/components/selectize/selectize.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/app/components/selectize/selectize.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/app/components/selectize/selectize.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/app/components/selectize/selectize.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/app/components/blog-home/blog-home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/app/components/blog-home/blog-home.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/app/components/blog-item-details/blog-item-details.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/app/components/blog-item-details/blog-item-details.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/app/components/blog-item-image/blog-item-image.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/app/components/blog-item-image/blog-item-image.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/app/components/blog-item-text/blog-item-text.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/app/components/blog-item-text/blog-item-text.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/src/app/components/blog-item-text/blog-item-text.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/app/components/blog-item-text/blog-item-text.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/app/components/blog-item/blog-item.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/app/components/blog-item/blog-item.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/app/components/blog-item/blog-item.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/app/components/blog-item/blog-item.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/app/components/blog/blog.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/app/components/blog/blog.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/src/app/components/blog/blog.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/app/components/blog/blog.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/src/app/shared/search-bar/search-bar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/app/shared/search-bar/search-bar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/app/services/data.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/app/services/data.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/app/shared/search-bar/search-bar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/app/shared/search-bar/search-bar.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="typescript" />
+        <entry key="$PROJECT_DIR$" value="Angular" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -81,7 +95,12 @@
       <workItem from="1617042610740" duration="2382000" />
       <workItem from="1617045029059" duration="282000" />
       <workItem from="1617045643299" duration="2067000" />
-      <workItem from="1617048984084" duration="823000" />
+      <workItem from="1617048984084" duration="1137000" />
+      <workItem from="1617109234065" duration="76000" />
+      <workItem from="1618650523905" duration="217000" />
+      <workItem from="1618827007087" duration="44000" />
+      <workItem from="1618832159980" duration="5011000" />
+      <workItem from="1618837343323" duration="198000" />
     </task>
     <servers />
   </component>
@@ -102,5 +121,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>

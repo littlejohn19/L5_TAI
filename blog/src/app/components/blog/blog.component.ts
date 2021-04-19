@@ -10,6 +10,7 @@ export class BlogComponent implements OnInit {
 
   @Input() filterText: string | undefined;
   public items$: any;
+  @Input() id: number | undefined;
 
   constructor(private service:DataService) {
   }
