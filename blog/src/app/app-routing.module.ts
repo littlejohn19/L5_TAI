@@ -22,6 +22,10 @@ const routes: Routes = [
   {
     path: 'blog/detail/:id',
     component: BlogItemDetailsComponent,
+  },
+  {
+    path: 'blog',
+    component: BlogHomeComponent,
   }
 ];
 
