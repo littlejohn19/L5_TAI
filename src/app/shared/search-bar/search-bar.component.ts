@@ -2,7 +2,7 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import {Router, ActivatedRoute} from '@angular/router';
 
 @Component({
-  selector: 'app-search-bar',
+  selector: 'search-bar',
   templateUrl: './search-bar.component.html',
   styleUrls: ['./search-bar.component.css']
 })

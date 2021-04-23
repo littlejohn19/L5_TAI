@@ -1,10 +1,8 @@
-<a [routerLink]="['/blog/detail/1']">
-  Więcej
-</a>
-
 <p>
   {{ text | summary:35 }}
 </p>
 
-
+<a [routerLink]="['/blog/detail/', id]" class="btn btn-primary" style="margin-bottom: 10px; margin-left: 10px">
+  Zobacz więcej
+</a>
 
