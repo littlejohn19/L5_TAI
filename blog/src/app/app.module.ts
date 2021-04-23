@@ -6,7 +6,6 @@ import {AppComponent} from './app.component';
 import {HomeComponent} from './components/home/home.component';
 import {BlogComponent} from './components/blog/blog.component';
 import {ContactComponent} from './components/contact/contact.component';
-import {Routes} from "@angular/router";
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { BlogItemComponent } from './components/blog-item/blog-item.component';
 import { BlogItemTextComponent } from './components/blog-item-text/blog-item-text.component';
@@ -20,6 +19,7 @@ import {FormsModule} from "@angular/forms";
 import { BlogHomeComponent } from './components/blog-home/blog-home.component';
 import { FilterPipe } from './pipes/filter.pipe';
 import { TextFormatDirective } from './directives/text-format.directive';
+import { SelectizeComponent } from './components/selectize/selectize.component';
 
 
 
@@ -38,7 +38,8 @@ import { TextFormatDirective } from './directives/text-format.directive';
     SearchBarComponent,
     BlogHomeComponent,
     FilterPipe,
-    TextFormatDirective
+    TextFormatDirective,
+    SelectizeComponent
   ],
   imports: [
     BrowserModule,

@@ -24,4 +24,5 @@ export class BlogComponent implements OnInit {
       this.items$ = response;
     });
   }
+
 }
