@@ -5,13 +5,21 @@ import {HttpClient} from '@angular/common/http';
   providedIn: 'root'
 })
 export class DataService {
-  private url = 'https://blogtai.herokuapp.com/api/posts/';
+  private url = 'https://blogtai.herokuapp.com';
 
   constructor(private http: HttpClient) {
   }
 
   getAll() {
-    return this.http.get(this.url);
+    return this.http.get(this.url + '/api/posts/');
   }
+
+  getById(id: number) {
+    return this.http.get(this.url + '/api/posts/' + id);
+  }
+  getByText(data:string) {
+    return this.http.post(this.url + '/api/posts/', data);
+  }
+
 
 }
