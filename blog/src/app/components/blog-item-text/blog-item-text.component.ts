@@ -7,6 +7,8 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class BlogItemTextComponent implements OnInit {
   // @ts-ignore
+  @Input() id: number;
+  // @ts-ignore
   @Input() text: string;
 
   constructor() { }
