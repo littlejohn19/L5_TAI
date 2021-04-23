@@ -1,10 +1,15 @@
-import { Directive } from '@angular/core';
+import { Directive, ElementRef, Host, HostListener } from '@angular/core';
 
 @Directive({
   selector: '[TextFormat]'
 })
 export class TextFormatDirective {
 
-  constructor() { }
+  constructor(private el: ElementRef) { }
+
+  @HostListener('blur') onBlur(){
+    const value = this.el.nativeElement.value;
+    this.el.nativeElement.value = value.toLowerCase();
+  }
 
 }
