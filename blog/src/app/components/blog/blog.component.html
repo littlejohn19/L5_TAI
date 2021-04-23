@@ -1,4 +1,5 @@
 <div class="container">
+  <selectize></selectize>
   <div class="card-group">
     <div *ngFor="let item of items$ | filter: filterText">
       <blog-item [id]="item.id" [image]="item.image" [text]="item.title">
