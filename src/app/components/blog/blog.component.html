@@ -1,5 +1,9 @@
-<div *ngFor="let item of items$ | filter: filterText">
-    <blog-item [image]="item.url" [text]="item.title">
-    </blog-item>
-   </div>
-   
+<selectize></selectize>
+  <div class="container">
+    <div class="row">
+            <div *ngFor="let item of items$ | filter: filterText" class="col-md-4 col-sm-6 col-12" style="padding: 5px; min-width: 20rem; min-height:15%;">
+                <blog-item [id]="item.id" [image]="item.image" [text]="item.title">
+                </blog-item>
+            </div>
+    </div>
+  </div>
