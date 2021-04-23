@@ -2,7 +2,13 @@
   <img [src]= "image" >
 </div>
 
-<div class="card-body" style="text-align: center">
+<div class="card-body" style="width: 70rem; text-align: center; margin: auto">
   <p class="card-text">{{ text }}</p>
+  <a [routerLink]="['/blog']"
+     type="button" class="btn btn-secondary btn-sm"
+     style="margin: auto">
+    Wróć
+  </a>
 </div>
+
 

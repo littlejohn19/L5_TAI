@@ -1,8 +1,9 @@
-<p>selectize works!</p>
+<input #input type="text"class="form-control mr-sm-2" type="search" placeholder="selectsize..." id="search" aria-label="Search"
+       style="width: 70rem; margin: auto">>
 
-<input #input type="text">
-
-<ul>
-  <li *ngFor="let p of posts$">
-    <a href="#" [routerLink]="['/blog/detail/', p.id]"> {{ p.text }}</a></li>
-</ul>
+<div  style="width: 70rem; margin: auto">
+    <a *ngFor="let p of posts$" href="#"
+       class="list-group-item "
+       style="margin-bottom: 1rem;"
+       [routerLink]="['/blog/detail/', p.id]"> {{ p.text }}</a>
+</div>

@@ -1,4 +1,11 @@
-<a [routerLink]="['home']">Home</a>
-<a [routerLink]="['blog']">Blog</a>
-<a [routerLink]="['contact']">Contact</a>
+<nav class="navbar navbar-dark bg-dark" style="margin-bottom: 5rem;">
+  <div class="navbar-brand">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
+    <a class="navbar-brand" [routerLink]="['home']" style="margin-left: 5rem;">Home</a>
+    <a class="navbar-brand" [routerLink]="['blog']">Blog</a>
+    <a class="navbar-brand" [routerLink]="['contact']">Contact</a>
+  </div>
+</nav>

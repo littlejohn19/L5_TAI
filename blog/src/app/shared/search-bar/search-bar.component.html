@@ -1,4 +1,7 @@
-<input [(ngModel)]="filterText"
-       (ngModelChange)="sendFilter()"
-       placeholder="Wpisz nazwę..." id="search" type="search"
-       class="form-control" textFormat>
+<form class="form-inline" style="display: flex">
+      <input [(ngModel)]="filterText"
+             (ngModelChange)="sendFilter()"
+             class="form-control mr-sm-2" type="search" placeholder="searchbar..." id="search" aria-label="Search"
+             style="width: 70rem; margin: auto; margin-bottom: 1rem;">
+<!--      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="width: 5rem;">Szukaj</button>-->
+</form>
