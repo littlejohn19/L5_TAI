@@ -20,6 +20,8 @@ import { FilterPipe } from './pipes/filter.pipe';
 import { TextFormatDirective } from './directives/text-format.directive';
 import { DataService } from './services/data.service';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
