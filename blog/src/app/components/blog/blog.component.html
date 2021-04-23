@@ -1,0 +1,13 @@
+<div class="card-body">
+<p class="card-text text-sm-center text-uppercase text-primary">blog works!</p></div>
+<div class="card-columns border-primary mb-3" style="width: 110rem; ">
+  <div class="card-body" >
+
+    <div *ngFor="let item of items$ | filter: filterText">
+      <blog-item [id]="item.id" [image]="item.image" [text]="item.title">
+
+      </blog-item>
+    </div>
+  </div>
+</div>
+
