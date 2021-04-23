@@ -7,8 +7,8 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class BlogItemComponent implements OnInit {
 
-  @Input() image:String = "";
-  @Input() text:String = "";
+  @Input() image: string = "";
+  @Input() text: string = "";
 
   constructor() { }
 
