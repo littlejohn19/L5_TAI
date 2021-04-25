@@ -1,0 +1,12 @@
+nav{
+    min-height: 5vh;
+    background-color: white;
+    color: blue;
+    text-align: center;
+}
+
+a{
+    font-size: 22px;
+    text-decoration: none;
+    padding: 5%;
+}
