@@ -1,7 +1,5 @@
 <selectize></selectize>
-<div class="outer-wrap">
 <ng-container *ngFor="let item of items$ | filter: filterText">
   <blog-item  [id]="item.id" [image]="item.image" [text]="item.text" [title]="item.title">
-</blog-item>
+	</blog-item>
 </ng-container>
-</div>

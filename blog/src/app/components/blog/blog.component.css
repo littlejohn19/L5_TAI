@@ -2,9 +2,3 @@ body {
   
 }
 
-.outer-wrap{
-  display: grid;
-  grid-template-columns: auto auto auto auto auto;
-  margin: 4% 6% 6% 6%;
-  row-gap: 6%;
-}
