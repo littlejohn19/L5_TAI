@@ -1,0 +1,24 @@
+.selectize{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-top: 20px;
+}
+
+.try-it{
+    margin-left: 20px;
+    margin-top: 4px;
+    font-size: 18px;
+}
+
+.blog-container{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.blog-item-style{
+    margin-top:20px;
+    margin-right:20px;
+}

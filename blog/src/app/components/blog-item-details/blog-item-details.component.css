@@ -1,0 +1,28 @@
+.details-neighbours{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+img{
+    border-radius: 15px;
+    max-width: 50%;
+    min-width: 50%;
+}
+
+p{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.read-more-box{
+    min-width: 45%;
+    max-width: 45%;
+    margin-top: 8px;
+    margin-left: 20px;
+    font-size: 24px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 125%;
+}
+
